@@ -1,0 +1,110 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    max-width: 1280px;
+    margin: 80px auto;
+}
+
+/* Header section */
+header{
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 450px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-title{
+    color: #3A3A3A;
+    font-size: 24px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    font-size: 1rem;
+    margin-left: 34px;
+    font-weight: 600;
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* header-sec2 */
+.journey-section{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.journey-title{
+    color: #3A3A3A;
+    font-size: 3.1rem;
+    width: 700;
+}
+.journey-desc{
+    color: #3A3A3A;
+    font-size: 1rem;
+}
+.btn-primary{
+    background-color: #E02C6D;
+    border-radius: 40px;
+    border: none;
+    color: #FFF;
+    padding: 10px 24px;
+}
+.journey-section img{
+    width: 400px;   
+}
+
+/* Responsive Section */
+
+/* Mobile */
+@media screen and (max-width:576px) {
+    body{
+        margin: 20px auto;
+    }
+    header{
+        background-position: left;
+    }
+    .header{
+        flex-direction: column;
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .journey-section{
+        text-align: center;
+        flex-direction: column-reverse;
+        margin: 20px;
+    }
+    .journey-desc{
+        width: 400px;
+    }
+    .journey-section img{
+        margin-top: 100px;
+        margin-bottom: 45px;  
+    }
+}
+  
+
+/* Tablet */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header{
+        flex-direction: column;
+    }
+    .journey-section{
+        margin: 25px;
+    }
+}
