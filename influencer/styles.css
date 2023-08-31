@@ -183,6 +183,7 @@ footer{
     }
     header{
         background-position: left;
+        background-size: auto;
     }
     nav ul{
         display: grid;
@@ -194,7 +195,7 @@ footer{
         margin: 20px;
     }
     .journey-desc{
-        width: 400px;
+        width: 100%;
     }
     .journey-section img{
         margin-top: 100px;
@@ -223,6 +224,9 @@ footer{
     }
     .journey-section{
         margin: 25px;
+    }
+    header{
+        background-size: auto;
     }
     .website{
         margin: 50px 20px;
