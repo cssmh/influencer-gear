@@ -7,7 +7,7 @@ body{
     font-family: 'Space Mono', monospace;
     font-family: 'Work Sans', sans-serif;
 }
-body{
+main{
     max-width: 1280px;
     margin: 50px auto;
 }
@@ -148,14 +148,26 @@ nav li a{
     font-size: 16px;
 }
 /* Feature Products section end */
+
 /* Footer Section */
 
-
-
-
-
-
-
+footer{
+    margin-top: 100px;
+    background-color: #0A0826;
+    height: 239px;
+}
+.footer-section{
+    padding-top: 50px;
+    text-align: center;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 1.5rem;
+}
+.footer-desc{
+    color: var(--text-gray-300, #D9DBE1);
+    font-size: 0.9rem;
+}
 
 /* Responsive Section */
 
